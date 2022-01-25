@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Your project</title>
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<!-- Bootstrap CSS https://getbootstrap.com/docs/4.6/getting-started/introduction/ -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<!-- Style.css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Plugins.css -->
+	<link rel="stylesheet" href="css/plugins.css">
+	<!-- Google Fonts https://fonts.google.com/ -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+	<!-- Animate.css https://cdnjs.com/libraries/animate.css/
+		https://daneden.github.io/animate.css/ -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css">
+	<!-- Lightbox Image Gallery https://cdnjs.com/libraries/lightbox2  https://lokeshdhakar.com/projects/lightbox2/ -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
+	<!-- Owl Carousel https://cdnjs.com/libraries/OwlCarousel2
+		http://owlcarousel2.github.io/OwlCarousel2/ -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+	<!-- Start Home Section -->
+	<div id="home">
+
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-lg fixed-top">
+			<div class="container-fluid">
+				<a href="#home" class="navbar-brand"><img src="img/CASHHOTEL-logo2.png" alt=""></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+					<span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a href="#home" class="nav-link">Explore</a>
+						</li>
+						<li class="nav-item">
+							<a href="#features" class="nav-link">Features</a>
+						</li>
+
+						<li class="nav-item">
+							<a href="#ingame" class="nav-link">In game overview</a>
+						</li>
+						<li class="nav-item">
+							<a href="#adventages" class="nav-link">Advantages</a>
+						</li>
+						<li class="nav-item">
+							<a href="#NFT" class="nav-link">NFTS</a>
+						</li>
+						<li class="nav-item">
+							<a href="#tokenomics" class="nav-link">Tokenomics</a>
+						</li>
+						
+						<!--<li class="nav-item">
+							<a href="countdown.html" target="_blank" class="nav-link">$TOKEN Presale</a>
+						</li>-->
+
+						<li class="nav-item">
+							<a href="roadmap.html" target="_blank" class="nav-link">Roadmap</a>
+						</li>
+
+					</ul>
+				</div>
+
+			</div>
+		</nav>
+		<!-- End Navigation -->
+
+		<!-- Button airdrop-->
+	<!--	<a href="https://t.me/CashHotelBot?start=r03015608920" target="_blank">
+			<img class="btn-airdrop" src="/img/airdrop2.png"/>
+		</a>-->
+
+			
+		<section>
+			<div class="stars"></div>
+			<div class="twinkling"></div>
+			<div class="clouds"></div>
+			
+			  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+			  <script src="js/flipclock.js"></script>
+			  <script src="js/newyear.js"></script>
+	  
+			<img src="images/stars.png" id="stars">
+			<img src="images/moon.png" id="moon">
+			<img src="images/mountains_behind.png" id="mountains_behind">
+			<h2 id="text"></h2>
+			<a href="#sec" id="btne">Explore</a>
+			<img src="images/TOKEN build center2.png" id="mountains_front">
+	  
+			<div class="content">
+		  </section>
+
+		  <div class="sec" id="sec">
+		  <script type="text/javascript">
+			let moon = document.getElementById('moon');
+			let stars = document.getElementById('stars');
+			let mountains_behind = document.getElementById('mountains_behind');
+			let mountains_front = document.getElementById('mountains_front');
+			let text = document.getElementById('text');
+			let btne = document.getElementById('btne');
+			let header = document.querySelector('header');
+			window.addEventListener('scroll', function() {
+			  var value = window.scrollY;
+			  moon.style.top = -value * -1.05 + 'px';
+			  stars.style.left = value * 0.25 + 'px';
+			  mountains_behind.style.top =-value * -0.5 + 'px';
+			  header.style.top =-value * -0.5 + 'px';
+			  mountains_front.style.top =-value * 0 + 'px';
+			  text.style.marginTop = value * 1.5 + 'px';
+			  btne.style.marginTop = value * 1.5 + 'px';
+			  text.style.marginRight = value * 4 + 'px';
+			});
+		  </script>
+
+
+
+
+		<!--- Start Carousel Image Slider -->
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="10000">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<!-- Slide One -->
+				<div class="carousel-item active" style="background-image: url('img/computers.jpg')" alt="">
+
+					<!-- Start Landing Page Caption -->
+					<div class="caption text-center text-light text-uppercase">
+						<h1 class="font-weight-bold os-animation" data-animation="animate__animated animate__fadeInUp" data-delay=".6s">Welcome to CASH<span class="text-nuno"> HOTELS</span></h1>
+					<h3 class="os-animation" data-animation="animate__animated animate__fadeInUp" data-delay=".6s">BUY ASSETS: Apartments, furniture, cars and trade it in the marketplace.</h3>
+					<a href="https://t.me/CashHotelOfficial" class="btn btn-outline-light btn-lg rounded-0 os-animation " data-animation="animate__animated animate__fadeInUp" data-delay="1s">Join our telegram</a></div>
+					<!-- End Landing Page Caption -->
+
+				</div>
+				<!-- Slide Two -->
+				<div class="carousel-item" style="background-image: url('img/computers-2.jpg')" alt="">	<div class="caption text-center text-light text-uppercase">
+					<h1 class="font-weight-bold os-animation" data-animation="animate__animated animate__fadeInUp" data-delay=".6s">the presale <span class="text-nuno"> IS COMING!</span></h1>
+						<h3 class="os-animation" data-animation="animate__animated animate__fadeInUp" data-delay=".8s">Take advantage of this to enter <br>the game for less money <br>or to invest a lot and make a profit.</h3>
+						<a href="countdown.html" class="btn btn-outline-light btn-lg rounded-0 os-animation btn_space" target="_blank" data-animation="animate__animated animate__fadeInUp" data-delay="1s">COUNTDOWN</a>
+	</div></div>
+				<!-- Slide Three -->
+				<div class="carousel-item" style="background-image: url('img/computers-3.jpg')" alt="">	<div class="caption text-center text-light text-uppercase">
+					<h1 class="font-weight-bold os-animation" data-animation="animate__animated animate__fadeInUp" data-delay=".6s">Everything is <br><span class="text-nuno">possible</span></h1>
+						<h3 class="os-animation" data-animation="animate__animated animate__fadeInUp" data-delay=".8s">Build your own HOTEL!<br>Keep exploring about this project</h3>
+						
+						<a href="#features" class="ver-mas" data-animation="animate__animated animate__fadeInUp" data-delay="1s">
+								<div>
+									<span></span>
+							</div>
+							<p>Scroll</p>
+						</a>
+			</div>
+		</div>			
+	</div> <!--- End Carousel Inner -->
+			<!--- Previous & Next Buttons -->
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<!--- End Carousel Image Slider -->
+
+	</div>
+	<!-- End Home Section -->
+
+
+	<!-- Start Features Section -->
+	<div id="features" class="offset">
+
+		<!-- Start Theme Heading -->
+		<div class="row text-center py-4 os-animation justify-content-center" data-animation="animate__animated animate__fadeInUp">
+			<div class="col-11 col-md-10 col-lg-9">
+				<h1>GAME IN DEVELOPMENT </h1>
+				<p class="lead">The idea originated in 2020. The game is in full development. <br>You will be able to access the token freely, regardless of whether you are an investor or not.<br> <b>The limited sale of NFT floors, furniture and cars is coming!</b></p>
+				<a href="/PDF/WhitePaper.pdf" target="_blank" class="btn btn-nuno btn-sm">WhitePaper</a>
+				<a href="roadmap.html" target="_blank" class="btn btn-nuno btn-sm">ROADMAP</a>
+				<a href="countdown.html" target="_blank" class="btn btn-secondary btn-sm">Pre-sale</a>
+				<!--<a href="countdown.html" target="_blank" class="btn btn-secondary btn-sm">View NFTs</a> -->
+
+			</div>
+		</div>
+	</div>
+		<!-- End Theme Heading --><div id="NFT" class="offset">
+
+		<!-- Start Fixed BG IMG Light -->
+		<div class="fixed">
+
+			<div class="row light">
+
+				<div class="col-12 os-animation" data-animation="animate__animated animate__fadeInUp">
+					<h3 class="heading">Uniques NFT</h3>
+					<div class="heading-underline"></div>
+				</div>
+				<div class="container2">
+					<div class="box">
+						<h2 class="name">Elevator</h2>
+						<a href="#" class="buy">Rare</a>
+						<div class="circle"></div>
+						<img src="img/nfts/elevator.png" class="product">
+					</div>
+
+					<div class="box">
+						<h2 class="name">Horror ROOM</h2>
+						<a href="#" class="buy">Mythic</a>
+					
+						<div class="circle"></div>
+						<img src="img/nfts/horror-room-1.png" class="product">
+					</div>
+
+					<div class="box">
+						<h2 class="name">Mustango - GOLD</h2>
+						<a href="#" class="buy">Legend</a>
+						<div class="circle"></div>
+						<img src="img/nfts/mustango-oro.png" class="product">
+					</div>
+				</div>
+				<script src="vanilla-tilt.min.js"></script>
+				<script>
+					VanillaTilt.init(document.querySelectorAll(".box"), {
+						max: 25,
+						speed: 400
+					});
+				</script> <!-- End Animation -->
+				</div><!-- End Container -->
+
+			</div> <!-- End Row -->
+
+			<div class="fixed-wrap">
+				<div class="fixed-light"></div>
+			</div>
+		</div>
+		<!-- Start Jumbotron -->
+	<!--	<div class="jumbotron m-0 py-5">
+
+			<div class="col-12 os-animation" data-animation="animate__animated animate__fadeInUp">
+				<h3 class="heading">About Your project}</h3>
+				<div class="heading-underline"></div>
+			</div>
+
+			<div id="features2" class="container">
+				<div class="row text-center px-lg-4 px-xl-5">
+
+					<div class="col-sm-6 col-md-4 os-animation" data-animation="animate__animated animate__fadeInLeft">
+						<div class="feature px-2">
+							<span class="fa-stack fa-2x">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fas fa-gamepad fa-stack-1x fa-inverse"></i>
+							</span>
+							<h3>Play and Earn $TOKEN</h3>
+							<p class="lead">Play and win or you can pay to get more profitabilit</p>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-4 os-animation" data-animation="animate__animated animate__fadeInUp">
+						<div class="feature px-2">
+							<span class="fa-stack fa-2x">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fas fa-object-group fa-stack-1x fa-inverse" data-fa-transform="shrink-1"></i>
+							</span>
+							<h3>NFT Apartments/Furnitures</h3>
+							<p class="lead">Improve your floor or buy more NFT assets for more profitability daily</p>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-4 os-animation" data-animation="animate__animated animate__fadeInRight">
+						<div class="feature px-2">
+							<span class="fa-stack fa-2x">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fas fa-user fa-stack-1x fa-inverse" ></i>
+							</span>
+							<h3>NFT Character</h3>
+							<p class="lead">Customize and upgrade your character</p>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-4 os-animation" data-animation="animate__animated animate__fadeInLeft">
+						<div class="feature px-2">
+							<span class="fa-stack fa-2x">
+								<i class="fas fa-circle fa-stack-2x"></i>
+								<i class="fas fa-balance-scale fa-stack-1x fa-inverse"></i>
+							</span>
+							<h3>Marketplace</h3>
+							<p class="lead">Trade your NFT assets with other people in the Marketplace</p>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-md-4 os-animation" data-animation="animate__animated animate__fadeInUp">
+							<div class="feature px-2">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-circle fa-stack-2x"></i>
+									<i class="fas fa-users fa-stack-1x fa-inverse" data-fa-transform="shrink-1"></i>
+								</span>
+								<h3>Everyone can earn</h3>
+								<p class="lead">Start with a package for beginners. You can work and earn their rewards</p>
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-md-4 os-animation" data-animation="animate__animated animate__fadeInRight">
+							<div class="feature px-2">
+								<span class="fa-stack fa-2x">
+									<i class="fas fa-circle fa-stack-2x"></i>
+									<i class="fas fa-money-check-alt fa-stack-1x fa-inverse"></i>
+								</span>
+								<h3>Benefits for investors</h3>
+								<p class="lead"><b>$TOKEN</b> for small and large investors. Generate great profits by acquiring the token before its price rises!</p>
+							</div>
+						</div>
+
+				</div> --><!-- End Row -->
+			</div> <!-- End Container-->
+
+		</div> <!-- End Jumbotron -->
+
+		<div id="ingame" class="offset">
+
+			<div class="container-fluid px-0">
+				<div class="row justify-content-center py-5">
+	
+					<div class="col-12 mt-5 os-animation" data-animation="animate__animated animate__fadeInUp">
+						<h3 class="heading">In game overview</h3>
+						<div class="heading-underline"></div>
+					</div>
+	
+		
+					<div class="col-10 col-lg-9 col-xl-8 text-center pt-5 os-animation" data-animation="animate__animated animate__fadeInUp">
+						<p class="lead"><b>Take part in the first nft game of the MMORPG / Life Simulator genre</b></p>
+				<!--	<a href="#video1" class="btn btn-secondary btn-sm " target="_blank">Gameplay</a> -->
+					</div>
+
+					<section class="video1">
+						<video src="cashhotels-gameplay.mp4" autoplay muted loop></video>
+					</section>
+				
+					<script type="text/javascript">
+						const section = document.querySelector('section');
+						const text = document.querySelector('.text');
+						window.addEventListener('scroll', function() {
+							const value = 800 - window.scrollY;
+							section.style.clipPath = "circle("+ value +"px at center center)"; 
+						});
+					</script>
+	
+				</div> <!-- End Row -->
+			</div> <!-- End Container -->
+	
+		</div>
+
+		<!-- Start Fixed BG IMG Dark -->
+		<div class="fixed">
+
+			<div class="row dark text-light text-center">
+			
+				<div class="col-12 os-animation" data-animation="animate__animated animate__fadeInUp">
+					<h3 class="heading">$TOKEN UTILITIES</h3>
+					<div class="heading-underline"></div>
+				</div>
+
+				<div class="col-md-4 os-animation" data-animation="animate__animated animate__fadeInLeft">
+					<h3>IN-GAME CURRENCY</h3>
+					<div class="feature py-2">
+						<span class="fa-layers fa-3x">
+							<i class="fab fa-btc"></i>
+						</span>
+					</div>
+					<p class="lead">$TOKEN could be used in the MARKETPLACE for purchasing furniture, apartments, accesories and much more.</p>
+				</div>
+
+				<div class="col-md-4 os-animation" data-animation="animate__animated animate__fadeInUp">
+					<h3>SOCIAL FEATURE AND TRADE</h3>
+					<div class="feature py-2">
+						<span class="fa-layers fa-3x">
+							<i class="fas fa-users"></i>
+						</span>
+					</div>
+					<p class="lead">Send $TOKEN in the chats with friends and trade your NFT assets.</p>
+				</div>
+
+				<div class="col-md-4 os-animation" data-animation="animate__animated animate__fadeInRight">
+					<h3>PLAY TO EARN</h3>
+					<div class="feature py-2">
+						<span class="fa-layers fa-3x">
+							<i class="fas fa-gamepad"></i>
+						</span>
+					</div>
+					<p class="lead">Get rewards for playing and increase your earnings, based on your amount of assets.</p>
+				</div>
+
+			</div> <!-- End Row Dark -->
+
+			<div class="fixed-wrap">
+				<div class="fixed-dark"></div>
+			</div>
+		<!-- End Fixed BG IMG Dark -->
+
+<!--	</div> -->
+
+
+	<div id="adventages" class="offset">
+
+		<div class="jumbotron mb-0">
+			<div class="container py-2">
+
+				<div class="os-animation" data-animation="animate__animated animate__fadeInUp">
+					<h3 class="heading">Advantages</h3>
+					<div class="heading-underline"></div>
+				</div>
+
+				<div class="row justify-content-center text-center px-lg-4 px-xl-5">
+
+					<div class="col-md-6 col-lg-4 os-animation" data-animation="animate__animated animate__fadeInLeft">
+						<div class="pricing-column">
+							<h3 class="border-bottom py-2 mx-3 font-weight-bold">For $TOKEN Investors</h3>
+							<p class="lead py-2">The use of our token in the game process, ensures the constant and fast growth of the $TOKEN. <br>Professional development and updates of the game attracts more and more gamers and buyers.</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-4 os-animation" data-animation="animate__animated animate__fadeInUp">
+						<div class="pricing-column">
+							<h3 class="border-bottom py-2 mx-3o font-weight-bold">For partners</h3>
+							<p class="lead py-2">The opportunity to join to the Your project and participate in the great market, with your NFT apartments, furnitures, works and become a good investor.</p>
+							<h4 class="pb-2">Limited NFT Floors</h4>
+							<h4 class="pb-2">Limited NFT Furniture and CARS!</h4>
+							<h4>Trade and growth your nft assets patrimony</h4>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-4 os-animation" data-animation="animate__animated animate__fadeInRight">
+						<div class="pricing-column">
+							<h3 class="border-bottom py-2 mx-3 font-weight-bold">For gamers</h3>
+							<p class="lead py-2">If you want, you have the possibility of earning real money. <br>Here exist meritocracy too.</p>
+							<h4 class="pb-2">Work and earn</h4>
+							<h4 class="pb-2">You want it you got it</h4>
+							<h4>Little investment requirement</h4>
+							<h4 class="py-2">Take advantage and enter with less money for get more profit!</h4>
+						</div>
+					</div>
+
+				</div> <!-- End Row -->
+
+			</div> <!-- End Container -->
+		</div> <!-- End Jumbotron-->
+
+	</div>
+
+
+	
+		<!-- End Fixed BG IMG Light -->
+
+	</div>
+
+
+	<div id="tokenomics" class="offset">
+
+		<div class="jumbotron m-0 py-5">
+			<div class="container">
+
+				<div class="col-12 os-animation" data-animation="animate__animated animate__fadeInUp">
+					<h3 class="heading">Token Economics</h3>
+					<div class="heading-underline"></div>
+				</div>
+
+				<div class="row justify-content-center text-center os-animation" data-animation="animate__animated animate__fadeInUp">
+					<div class="col-md-9 col-lg-12 col-xl-11">
+						<div class="row">
+
+							<div class="col-md-6 col-lg-3">
+								<span class="fa-stack fa-3x">
+									<i class="fas fa-circle fa-stack-2x"></i>
+									<i class="fas fa-clock fa-stack-1x fa-inverse"></i>
+								</span>
+								<h1 class="text-nuno font-weight-bold py-1"><span class="">1%</span></h1>
+								<h4 class="text-uppercase font-weight-bold">Airdrop</h4>
+							</div>
+
+							<div class="col-md-6 col-lg-3">
+								<span class="fa-stack fa-3x">
+									<i class="fas fa-square fa-stack-2x"></i>
+									<i class="fas fa-hand-holding-usd fa-stack-1x fa-inverse"></i>
+								</span>
+								<h1 class="text-nuno font-weight-bold py-1"><span class="">59%</span></h1>
+								<h4 class="text-uppercase font-weight-bold">Rewards</h4>
+							</div>
+
+							<div class="col-md-6 col-lg-3">
+								<span class="fa-stack fa-3x">
+									<i class="fas fa-square fa-stack-2x"></i>
+									<i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+								</span>
+								<h1 class="text-nuno font-weight-bold py-1"><span class="">20%</span></h1>
+								<h4 class="text-uppercase font-weight-bold">TOKENS LOCKED + RESERVES</h4>
+							</div>
+
+					
+
+							<div class="col-md-6 col-lg-3">
+								<span class="fa-stack fa-3x">
+									<i class="fas fa-circle fa-stack-2x"></i>
+									<i class="fas fa-tint fa-stack-1x fa-inverse"></i>
+								</span>
+								<h1 class="text-nuno font-weight-bold py-1"><span class="">20%</span></h1>
+								<h4 class="text-uppercase font-weight-bold">Liquidity</h4>
+							</div>
+
+					
+
+
+
+						</div> <!-- End Row -->
+					</div> <!-- End Column -->
+				</div> <!-- End Row Justify Content -->
+
+			</div> <!-- End Container -->
+		</div> <!-- End Jumbotron -->
+
+	</div>
+
+	<div id="team" class="offset">
+
+		<!-- Start Fixed BG IMG Light -->
+
+			<div class="row light">
+
+				<div class="col-12 os-animation" data-animation="animate__animated animate__fadeInUp">
+					<h3 class="heading">Our team</h3>
+					<div class="heading-underline"></div>
+				</div>
+
+				<div class="container">
+					<div class="os-animation" data-animation="animate__animated animate__fadeInUp">
+						<div id="team-carousel" class="owl-carousel owl-theme">
+
+							<div class="card">
+								<img src="img/team/markandersc.png" alt="" class="card-img-top rounded-0">
+								<div class="card-body">
+									<h4 class="font-weight-bold">Mark Anders</h4>
+									<h5 class="text-nuno">CEO</h5>
+									<p class="border-top border-bottom py-3 my-3">Solidity dev with almost 4 years of experience.</p>
+									<ul class="social">
+										<li><a href="https://www.linkedin.com/in/mark-anders-618619222/"><i class="fab fa-linkedin"></i></a></li>
+									</ul>
+								</div>
+							</div> <!-- End Card -->
+
+							<div class="card">
+								<img src="img/team/ultim2.png" alt="" class="card-img-top rounded-0">
+								<div class="card-body">
+									<h4 class="font-weight-bold">Niel Larsen</h4>
+									<h5 class="text-nuno">Software engineer</h5>
+									<p class="border-top border-bottom py-3 my-3">Niel has over 6 years of experience in a technology role.</p>
+									<ul class="social">
+									</ul>
+								</div>
+							</div> <!-- End Card -->
+
+							<div class="card">
+								<img src="img/team/Nils Lepik.png" alt="" class="card-img-top rounded-0">
+								<div class="card-body">
+									<h4 class="font-weight-bold">Nils Lepik</h4>
+									<h5 class="text-nuno">Senior Database Developer</h5>
+									<p class="border-top border-bottom py-3 my-3">More than 8 years of experience.</p>
+									<ul class="social">
+										<li><a href="https://www.linkedin.com/in/nils-lepik-273b04222/"><i class="fab fa-linkedin"></i></a></li>
+									</ul>
+								</div>
+							</div> <!-- End Card -->
+<!-- End Card -->
+
+							
+
+						</div> <!-- End Team Carousel -->
+					</div> <!-- End Animation -->
+				</div><!-- End Container -->
+
+			</div> <!-- End Row -->
+
+			<div class="fixed-wrap">
+				<div class="fixed-light"></div>
+			</div>
+		</div>
+		<!-- End Fixed BG IMG Light -->
+
+	</div>
+
+
+	<div id="clients" class="offset">
+
+		<div class="row justify-content-center">
+					<div style="-ms-grid-column-align: center;" class="partners-link ">
+
+			<div class="col-12 os-animation" data-animation="animate__animated animate__fadeInUp">
+				<h3 class="heading">Our Tools and Partners</h3>
+				<div class="heading-underline"></div>
+
+				<div style="column-width:auto" class="partners-link partners_center">
+					<img src="/img/partners/parteners1.png" alt="Partnership with Pancakeswap" />
+
+					<!--<a href="https://coinmarketcap.com/currencies/art-of-war/" target="_blank"><img src="/img/partners/coinmarketcap.png" alt="Partnership with Coinmarketcap" /></a>
+					<a href="https://www.coingecko.com/en/coins/art-of-war" target="_blank"><img src="/img/partners/coingecko.png" alt="Partnership with Coingecko" /></a>
+				-->	<br><br><br>
+				</div>
+			</div>
+			
+		</div> <!-- End Row -->
+
+	</div>
+
+
+	<!-- Start Contact Section -->
+	<div id="contact" class="offset">
+
+		<div class="container-fluid footer px-0">
+			<div class="row outer">
+
+				<div class="container">
+					<div class="row py-3">
+
+						<div class="col-md-5 px-0 pr-md-3">
+							<img src="img/CASHHOTEL-logo2.png" alt="">
+							<p>The content of the site is for informational purposes only and does not call for financial transactions, purchase or sale of cryptocurrency assets. The information published on the site should not be considered as investment advice. If you have decided to participate in the proposed project, then all responsibility for the safety of your funds lies solely with you.</p>
+							<strong>Donate:</strong>
+							<p>(wallet BSC)<br>
+								0x90fde053bE338efE623357E00E10b79E1cA7a6C1</p>
+							
+							<ul class="social pt-3">
+								<li><a href="https://t.me/CashHotelBot?start=r03015608920"><i class="fab fa-telegram"></i></a></li>
+								<li><a href="https://www.instagram.com/cash.hotels/"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="https://discord.gg/GqGXF79"><i class="fab fa-discord"></i></a></li>
+
+							</ul>
+						</div> <!-- End Column -->
+
+						<div class="col-md-7 px-0 pl-md-3">
+							<h3>Contact Us</h3>
+							<strong>Contact Info for partners:</strong>
+							<p>hello@cash-hotels.com</p>
+
+							
+
+						</div> <!-- End Row -->
+
+					</div> <!-- End Row -->
+				</div> <!-- End Container -->
+
+				<hr class="socket">
+				&copy;  2021 Your proyect. All right reserved.
+
+			</div> <!-- End Row Outer -->
+		</div> <!-- End Container Fluid -->
+		
+	</div>
+	<!-- End Contact Section -->
+
+
+	<!-- Top Scroll -->
+	<a href="#home" class="top-scroll">
+		<i class="fa fa-angle-up"></i>
+	</a>
+	<!-- End of Top Scroll -->
+
+
+	<!-- Script Source Files -->
+
+	<!-- jQuery https://code.jquery.com/ -->
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<!-- Bootstrap JS https://getbootstrap.com/docs/4.6/getting-started/introduction/ -->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+	<!-- Plugins.js -->
+	<script src="js/plugins.js"></script>
+	<!-- Waypoints https://cdnjs.com/libraries/waypoints
+		https://github.com/imakewebthings/waypoints -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+	<!-- Font Awesome https://fontawesome.com/  https://use.fontawesome.com/releases/v5.15.2/js/all.js -->
+	<script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"></script>
+	<!-- Lightbox Image Gallery https://cdnjs.com/libraries/lightbox2  https://lokeshdhakar.com/projects/lightbox2/ -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+	<!-- Owl Carousel https://cdnjs.com/libraries/OwlCarousel2
+		http://owlcarousel2.github.io/OwlCarousel2/ -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<!-- jQuery CounterUp https://www.jsdelivr.com/package/npm/jquery.counterup
+		https://github.com/bfintal/Counter-Up2 -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
+	<!-- Bootstrap Form Validator https://cdnjs.com/libraries/1000hz-bootstrap-validator -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+	
+	<!-- End of Script Source Files -->
+
+</body>
+</html>

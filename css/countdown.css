@@ -1,0 +1,386 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+   
+
+}
+*
+
+ .text-nuno {
+    color: #00aeff;
+ }
+ 
+ /*--- Nav Scrolling Offset --*/
+ .offset:before {
+    content: "";
+    height: 4rem;
+    display: block;
+    margin-top: -4rem;
+ }
+ 
+ /*--- Extra Bootstrap Column Padding --*/
+ [class*="col-"] {
+    padding: 1rem;
+ }
+ 
+ /*============= NAVIGATION =============*/
+ .navbar-brand img {
+    height: 2rem;
+ }
+ .navbar {
+    padding: .7rem 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    font-size: .9rem;
+    transition: background-color .5s ease;
+ }
+ .navbar-nav li {
+    padding-right: .8rem;
+ }
+ .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+ }
+ .navbar-nav .nav-link.active,
+ .navbar-nav .nav-link:hover {
+    color: #00aeff;
+ }
+ .custom-toggler-icon {
+    color: white;
+    font-size: 1.6rem;
+ }
+ .navbar.solid,
+ .navbar.solid-toggle {
+    background: rgba(0, 0, 0, .7)!important;
+    transition: background-color 1s ease;
+ }
+ 
+ 
+ /*-- Remove Button Outline --*/
+ button:focus, a:focus, a.btn:focus {
+    outline: 0;
+    -webkit-appearance: none;
+    box-shadow: none;
+    transition: all .6s ease;
+ }
+
+/*--- Nav Scrolling Offset --*/
+.offset:before {
+    content: "";
+    height: 4rem;
+    display: block;
+    margin-top: -4rem;
+ }
+ 
+ /*--- Extra Bootstrap Column Padding --*/
+ [class*="col-"] {
+    padding: 1rem;
+ }
+ 
+ /*============= NAVIGATION =============*/
+ .navbar-brand img {
+    height: 2rem;
+ }
+ .navbar {
+    padding: .7rem 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    font-size: .9rem;
+    transition: background-color .5s ease;
+ }
+ .navbar-nav li {
+    padding-right: .8rem;
+ }
+ .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+ }
+ .navbar-nav .nav-link.active,
+ .navbar-nav .nav-link:hover {
+    color: #00aeff;
+ }
+ .custom-toggler-icon {
+    color: white;
+    font-size: 1.6rem;
+ }
+ .navbar.solid,
+ .navbar.solid-toggle {
+    background: rgba(0, 0, 0, .7)!important;
+    transition: background-color 1s ease;
+ }
+ 
+  /*BTN below THIS */
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%; /* Change position of langing page text. */
+    z-index: 100;
+  }
+  button:focus, a:focus, a.btn:focus {
+    outline: 0;
+    -webkit-appearance: none;
+    box-shadow: none;
+    transition: all .6s ease;
+ }
+ button, a, a.btn,
+ .svg-inline--fa {
+    transition: all .6s ease;
+ }
+ 
+ .btn_space{
+ padding-top: 20%;
+ }
+
+ .caption {
+    z-index: 100;
+    position: absolute;
+    top: 3%;
+    width: 100%;
+    max-width: 100%;
+ }
+ .caption h1 {
+    font-size: 3.0rem;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+    text-align: center;
+    margin-top: 5%;
+    
+ }
+ .caption h3 {
+    font-size: 2.5rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 2rem;
+ }
+ .caption .btn-lg {
+    border-width: medium;
+    padding: .8rem 1.5rem;
+    font-size: 5.0rem;
+ }
+ .caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 5%; /* Change position of langing page text. */
+    z-index: 40;
+
+  }
+
+ 
+  html, body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    z-index: 100;
+    padding-top: 0%;
+    padding-bottom: 100%;
+ }
+ .text-nuno {
+    color: #00aeff;
+    z-index: 100;
+    top:100;
+    left:0;
+    right:0;
+    bottom:0;
+    width: 100%;
+    height:200px;
+ }
+ 
+ /*--- Nav Scrolling Offset --*/
+ .caption .btn-lg {
+    border-width: medium;
+    padding: .8rem 1.5rem;
+    font-size: 1.1rem;
+ }
+ .caption .btn-lg {
+    padding: .7rem 5.2rem;
+    font-size: 6rem;
+ }
+ .caption .btn-lg {
+    padding: .6rem 1.1rem;
+ }
+ .caption .btn-lg {
+    padding: .8rem .8rem;
+    font-size: .9rem;
+    line-height: 50%;
+    color: #000;
+    
+ }
+ 
+.btn-sm {
+    border-width: medium;
+    text-transform: uppercase;
+    font-size: .9rem;
+    margin: 1rem;
+    border-radius: 7%;
+ }
+ .btn-sm:hover{
+    background-color: #011945;
+ }
+ 
+ .btn-nuno {
+    background-color: #00aeff;
+    color: white;
+    position: fixed;
+   width: 150px;
+   height: 60px;
+   line-height: 40px;
+   bottom: 150px;
+   background-image: linear-gradient(to left, #0f2d3b, #0072a7, #00aeff) !important;
+   color:#fff;
+   border-radius: 925px;
+   text-align: center;
+   font-size: 270px;
+   box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.8);
+   z-index: 100;
+   transition: 1s;
+   cursor: not-allowed;
+   margin: auto auto auto auto;
+   top: 300;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   text-decoration: #007bb4;
+   zoom: 1.5;
+}
+.btn-nuno:hover{
+    color: #011945;
+    background-image: linear-gradient(to left, #ffffff, #7dd6ff, #007bb4) ;
+ 
+ }
+
+ #tomoon {
+   border-radius: 10%;
+}
+.offset:before {
+   content: "";
+   height: 4rem;
+   display: block;
+   margin-top: -4rem;
+}
+
+ button:focus, a:focus, a.btn:focus {
+    outline: 0;
+    -webkit-appearance: none;
+    box-shadow: none;
+    transition: all .6s ease;
+ }
+ button, a, a.btn,
+ .svg-inline--fa {
+    transition: all .6s ease;
+ }
+ 
+ .btn_space{
+ padding-top: 20%;
+ }
+ 
+ 
+ /*--- Extra Bootstrap Column Padding --*/
+ [class*="col-"] {
+    padding: 1rem;
+ }
+  /*BTN UP THIS */
+.message
+{
+    font-family: 'Great Vibes', cursive;
+    color: white;
+    position: absolute;
+    font-size: 95px;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width: 100%;
+    height:200px;
+    z-index: 100;
+    margin: auto auto;
+    line-height: 200px;
+    text-align: center;
+    display: none;
+}
+
+
+#confetti
+{  
+    display: none;
+}
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+}
+
+.stars, .twinkling, .clouds {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    zoom: 1;
+    display:block;
+}
+
+.stars {
+    background:#000 url(../img/stars.png) repeat top center;
+    z-index:0;
+}
+
+.twinkling{
+    background:transparent url(../img/twinkling.png) repeat top center;
+    z-index:1;
+
+    -moz-animation:move-twink-back 200s linear infinite;
+    -ms-animation:move-twink-back 200s linear infinite;
+    -o-animation:move-twink-back 200s linear infinite;
+    -webkit-animation:move-twink-back 200s linear infinite;
+    animation:move-twink-back 200s linear infinite;
+}
+
+.clouds{
+    background:transparent url(../img/tothemoon.png) repeat top center;
+    z-index:3;
+
+    -moz-animation:move-clouds-back 200s linear infinite;
+    -ms-animation:move-clouds-back 200s linear infinite;
+    -o-animation:move-clouds-back 200s linear infinite;
+    -webkit-animation:move-clouds-back 200s linear infinite;
+    animation:move-clouds-back 50s linear infinite;
+}
